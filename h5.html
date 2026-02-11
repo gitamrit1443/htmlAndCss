@@ -1,0 +1,45 @@
+<!-- Forms in html -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+<h1>******This is a Form Tag*****</h1>
+    <div class="container">
+      
+    <form action="h6.html">
+        <label for="username" id="username">Username</label><br>
+        <input type="text"><br>
+        <label for="email" id="email">Email</label><br>
+        <input type="email" name="email" id="emai"><br>
+        <label for="password">Password</label><br>
+        <input type="password" name="password"><br><br>
+        <textarea name="comment" id="comment">Write Here</textarea><br><br>
+        
+        <label for="Gender">Gender</label><br>
+       <input type="radio" name="gender" value="Male">Male <br>
+       <input type="radio" name="gender" value="Female">Female <br>
+       <input type="radio" name="gender" value="Rather Not Say">Rather Not Say <br><br>
+       <label for="city">City</label><br>
+        <select name="city" id="city">
+            
+        <option value="Dehradun">Dehradun</option>
+        <option value="Delhi">Delhi</option>
+        <option value="kolkata">kolkata</option>
+        <option value="Chennai">Chennai</option>
+        <option value="Charlapalli">Charlapalli</option>
+        <option value="Karnal">Karnal</option>
+        <option value="Mumbai">Mumbai</option>
+         </select><br><br>
+        <button type="reset">Reset</button>
+        <button onclick="h6.html">Submit</button>
+        <!-- <input type="submit" value="Submit">same work -->
+
+    </form>
+    </div>
+ </body>
+ </html>

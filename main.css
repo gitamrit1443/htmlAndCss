@@ -1,0 +1,10 @@
+.abc {        
+    color: blue;
+}
+
+.abc a:hover {  
+    color: red;
+}
+body{
+    background-color: azure;
+}
