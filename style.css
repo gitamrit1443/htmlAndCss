@@ -11,6 +11,9 @@
             color:brown;
             margin:0;
             align-content: center;
+            display:flex;
+            justify-content: center;
+            align-items: center;
         }
         body
         {
