@@ -1,0 +1,59 @@
+/* Base Style */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:2px;
+    padding:2px;
+}
+h1,h2,h3{
+    margin:2px;
+}
+p{
+    margin:2px;
+}
+
+/* Layout */
+/* Header footer sidebars */
+.header{
+    padding:10px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-nav{
+    display:flex;
+
+}
+.header-logo{
+    font-size:24px ;
+}
+/* Modules */
+.button
+{
+    background-color:lightgreen ;
+    border-radius: 5px;
+    transition: background-color 0 0.3 ease ;
+}
+.nav-items
+
+{
+    text-decoration:none ;
+    color:black;
+    padding:5px;
+}
+/* State how elements behave in certain states eg when they are hovered*/
+.button:hover
+{
+    background-color: blue;
+}
+.is-active{
+    background-color: red;
+    color:white
+}
+/* Theme */
+.theme-dark .header{
+  background-color: gray;
+}
+.theme-dark .button{
+    background-color:lightpink;
+}
