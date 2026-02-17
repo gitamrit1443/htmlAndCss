@@ -1,6 +1,6 @@
 /* Block-Card */
 .card {
-  background-color:lightblue;
+  background-color:rgb(26, 179, 230);
   padding: 30px;
   border-radius: 12px;
   transition: all 0.3s ease;
@@ -9,6 +9,7 @@
 .card:hover {
   transform: translateY(-8px);
   box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+  background-color:lightseagreen;
 }
 /* Elements styling */
 .card__title
